@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+rm -r $OLDATA/*.log
+rm -r $OLDATA/nodedata
+rm -r $OLDATA/consensus/data
+rm $OLDATA/consensus/config/addrbook.json
